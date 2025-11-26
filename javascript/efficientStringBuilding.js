@@ -16,3 +16,9 @@ let fn = arr => {
 
     return ans;
 }
+
+// In JavaScript, benchmarking shows that concatenation with += is faster than using .join().
+
+// Example usage:
+const charArray = ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!'];
+console.log(fn(charArray)); // Output: "Hello World!"   
