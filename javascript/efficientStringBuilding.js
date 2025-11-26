@@ -7,7 +7,7 @@ let fn = arr => {
 
     return ans.join("")
 }
-
+// Alternative approach using string concatenation
  fn = arr => {
     let ans = "";
     for (const c of arr) {
