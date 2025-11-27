@@ -7,7 +7,7 @@
 
 Understanding time and space complexity is foundational to solving algorithmic interview problems.
 
-![Big-O Complexity Chart](attachment:./complexitychart.png)
+![Big-O Complexity Chart](complexitychart.png)
 
 ---
 
