@@ -15,14 +15,14 @@ Understanding time and space complexity is foundational to solving algorithmic i
 
 A useful reference for comparing popular sorting algorithms in coding interviews.
 
-![Sorting Algorithm Complexity Table](attachment:complexity-table.png)
+![Sorting Algorithm Complexity Table](complexity-table.png)
 
 ---
 
 # 🧭 Algorithm Decision Flowchart  
 Use this when you're stuck deciding **which technique** to apply for a problem.
 
-![Algorithm Flowchart](attachment:algo-chart.png)
+![Algorithm Flowchart](achment:algo-chart.png)
 
 ---
 
@@ -60,7 +60,7 @@ This shows you are systematic and detail-oriented.
 
 ---
 
-## 3. 🧠 Brainstorming Approaches
+## 3.  Brainstorming Approaches
 
 Think out loud. Explore patterns like:
 
@@ -77,7 +77,7 @@ Outline the chosen approach and wait for confirmation before coding.
 
 ---
 
-## 4. 👨‍💻 Implementation
+## 4.  Implementation
 
 - Ask before using libraries  
 - Write clean, readable code  
@@ -87,7 +87,7 @@ Outline the chosen approach and wait for confirmation before coding.
 
 ---
 
-## 5. 🧪 Testing & Debugging
+## 5.  Testing & Debugging
 
 ### Environment types:
 1. **Tests auto-run** (like LeetCode)
@@ -100,11 +100,11 @@ For manual environments:
 - Compare expected vs actual  
 
 If you hit a bug:  
-👉 Don’t panic — talk through your debugging process.
+ Don’t panic — talk through your debugging process.
 
 ---
 
-## 6. ⚙️ Follow-up Questions
+## 6.  Follow-up Questions
 
 Be prepared to explain:
 
@@ -118,7 +118,7 @@ Interviewers evaluate your thinking more than correctness.
 
 ---
 
-## 7. 👋 Outro – Your Questions to the Interviewer
+## 7.  Outro – Your Questions to the Interviewer
 
 Ask thoughtful questions:
 
@@ -131,7 +131,7 @@ Be engaged and show curiosity.
 
 ---
 
-# 🎯 Bonus: Interview Patterns Cheat Sheet
+#  Bonus: Interview Patterns Cheat Sheet
 
 These diagrams (above) give a quick way to identify:
 
