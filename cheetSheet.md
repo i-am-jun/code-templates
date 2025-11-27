@@ -1,5 +1,9 @@
-# Stages of an Interview  
-*A complete guide with diagrams, Big-O charts, algorithm patterns, and sorting complexities.*
+# Cheat Sheet 
+*This article will be a collection of cheat sheets that you can use as you solve problems and prepare for interviews. You will find:
+
+Time complexity (Big O) cheat sheet
+General DS/A flowchart (when to use each DS/A)
+Stages of an interview cheat sheet*
 
 ---
 
@@ -8,6 +12,123 @@
 Understanding time and space complexity is foundational to solving algorithmic interview problems.
 
 ![Big-O Complexity Chart](complexitychart.png)
+
+# Time Complexity Cheat Sheet
+
+First, let's talk about the time complexity of common operations, split by data structure/algorithm. Then, we'll talk about reasonable complexities given input sizes.
+
+---
+
+## 📌 Arrays (Dynamic Array/List)
+
+Given **n = arr.length**
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Add/remove at end | **O(1)** amortized |
+| Add/remove at arbitrary index | **O(n)** |
+| Access/modify element | **O(1)** |
+| Check if element exists | **O(n)** |
+| Two pointers | **O(n · k)** |
+| Build prefix sum | **O(n)** |
+| Subarray sum (with prefix sum) | **O(1)** |
+
+---
+
+## 📌 Strings (Immutable)
+
+Given **n = s.length**
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Add/remove character | **O(n)** |
+| Access character | **O(1)** |
+| String concatenation | **O(n + m)** |
+| Substring creation | **O(m)** |
+| Two pointers | **O(n · k)** |
+| Build string (join/StringBuilder) | **O(n)** |
+
+---
+
+## 📌 Linked Lists
+
+Given **n** nodes
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Add/remove with pointer **before** location | **O(1)** |
+| Add/remove with pointer **at** location | **O(1)** (doubly linked) |
+| Add/remove without pointer | **O(n)** |
+| Access arbitrary position | **O(n)** |
+| Check if element exists | **O(n)** |
+| Reverse between i and j | **O(j − i)** |
+| Detect cycle | **O(n)** |
+
+---
+
+## 📌 Hash Table / Dictionary
+
+Given **n = dic.length**
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Add/remove key-value pair | **O(1)** |
+| Check if key exists | **O(1)** |
+| Check if value exists | **O(n)** |
+| Access/modify value | **O(1)** |
+| Iterate through keys/values | **O(n)** |
+
+> ⚠️ Hashing strings costs **O(m)** where m = string length.  
+> Complexity is constant *relative to n*, not input size.
+
+---
+
+## 📌 Set
+
+Given **n = set.length**
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Add/remove | **O(1)** |
+| Check existence | **O(1)** |
+
+---
+
+## 📌 Stack (Array Implementation)
+
+Given **n = stack.length**
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Push | **O(1)** |
+| Pop | **O(1)** |
+| Peek | **O(1)** |
+| Access by index | **O(1)** |
+| Check if element exists | **O(n)** |
+
+---
+
+## 📌 Queue (Doubly Linked List Implementation)
+
+Given **n = queue.length**
+
+| Operation | Time Complexity |
+|----------|-----------------|
+| Enqueue | **O(1)** |
+| Dequeue | **O(1)** |
+| Peek | **O(1)** |
+| Access by index | **O(n)** |
+| Check existence | **O(n)** |
+
+---
+
+## 📌 Binary Tree Algorithms (DFS/BFS)
+
+Given **n nodes**
+
+Most tree traversals take:
+
+
 
 ---
 
@@ -23,123 +144,6 @@ A useful reference for comparing popular sorting algorithms in coding interviews
 Use this when you're stuck deciding **which technique** to apply for a problem.
 
 ![Algorithm Flowchart](algo-chart.png)
-
----
-
-#  Stages of an Interview
-
-Most algorithmic interviews last **45–60 minutes** and follow this structure.
-
----
-
-## 1.  Introductions
-
-- Prepare a **30–60 sec intro**
-- Mention: work experience, tech stack, interests
-- Listen carefully to the interviewer’s intro  
-- Connect on any common interest
-
----
-
-## 2.  Problem Statement Clarification
-
-**Before writing any code, do this:**
-
-### Ask clarifying questions:
-- What does input look like?
-- Bounds on input size?
-- Sorted or unsorted?
-- Can input be empty?
-- Any constraints?
-
-### Confirm understanding:
-- Repeat the problem in your own words  
-- Walk through an example
-
-This shows you are systematic and detail-oriented.
-
----
-
-## 3.  Brainstorming Approaches
-
-Think out loud. Explore patterns like:
-
-- Sliding window  
-- Two pointers  
-- Hashing  
-- Backtracking  
-- BFS/DFS  
-- Dynamic Programming  
-- Binary search  
-- Graph/tree techniques  
-
-Outline the chosen approach and wait for confirmation before coding.
-
----
-
-## 4.  Implementation
-
-- Ask before using libraries  
-- Write clean, readable code  
-- Use helper functions where possible  
-- Explain your thought process while coding  
-- Start with brute force if stuck → optimize later
-
----
-
-## 5.  Testing & Debugging
-
-### Environment types:
-1. **Tests auto-run** (like LeetCode)
-2. **You write tests, code executes**
-3. **You write tests, code does NOT execute**
-
-For manual environments:
-- Dry-run your code  
-- Track variable changes  
-- Compare expected vs actual  
-
-If you hit a bug:  
- Don’t panic — talk through your debugging process.
-
----
-
-## 6.  Follow-up Questions
-
-Be prepared to explain:
-
-- Time complexity  
-- Space complexity  
-- Tradeoffs  
-- Is your solution optimal?  
-- How to improve it?
-
-Interviewers evaluate your thinking more than correctness.
-
----
-
-## 7.  Outro – Your Questions to the Interviewer
-
-Ask thoughtful questions:
-
-- What does a typical day look like?  
-- What's the team structure?  
-- What are the current big challenges?  
-- What’s your favorite part of working here?
-
-Be engaged and show curiosity.
-
----
-
-#  Bonus: Interview Patterns Cheat Sheet
-
-These diagrams (above) give a quick way to identify:
-
-- When to use sliding window  
-- When to use DP  
-- When to use hashing  
-- When to use BFS vs DFS  
-- Techniques for trees and linked lists  
 
 ---
 
