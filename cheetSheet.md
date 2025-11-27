@@ -7,7 +7,7 @@
 
 Understanding time and space complexity is foundational to solving algorithmic interview problems.
 
-![Big-O Complexity Chart](attachment:7de1ee68-5446-4d58-86a6-007aae75670c.png)
+![Big-O Complexity Chart](attachment:complexitychart.png)
 
 ---
 
@@ -15,14 +15,14 @@ Understanding time and space complexity is foundational to solving algorithmic i
 
 A useful reference for comparing popular sorting algorithms in coding interviews.
 
-![Sorting Algorithm Complexity Table](attachment:097a8654-c72c-42a6-8a5a-d20024659b3a.png)
+![Sorting Algorithm Complexity Table](attachment:complexity-table.png)
 
 ---
 
 # 🧭 Algorithm Decision Flowchart  
 Use this when you're stuck deciding **which technique** to apply for a problem.
 
-![Algorithm Flowchart](attachment:ab0538f7-cb27-4ade-af1b-a338f506f61d.png)
+![Algorithm Flowchart](attachment:algo-chart.png)
 
 ---
 
