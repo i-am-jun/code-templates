@@ -3,7 +3,7 @@
 
 ---
 
-# 📈 Big-O Complexity Overview
+#  Big-O Complexity Overview
 
 Understanding time and space complexity is foundational to solving algorithmic interview problems.
 
@@ -11,7 +11,7 @@ Understanding time and space complexity is foundational to solving algorithmic i
 
 ---
 
-# 📊 Sorting Algorithm Complexities
+#  Sorting Algorithm Complexities
 
 A useful reference for comparing popular sorting algorithms in coding interviews.
 
@@ -19,20 +19,20 @@ A useful reference for comparing popular sorting algorithms in coding interviews
 
 ---
 
-# 🧭 Algorithm Decision Flowchart  
+#  Algorithm Decision Flowchart  
 Use this when you're stuck deciding **which technique** to apply for a problem.
 
-![Algorithm Flowchart](achment:algo-chart.png)
+![Algorithm Flowchart](algo-chart.png)
 
 ---
 
-# 🧑‍💼 Stages of an Interview
+#  Stages of an Interview
 
 Most algorithmic interviews last **45–60 minutes** and follow this structure.
 
 ---
 
-## 1. 🔹 Introductions
+## 1.  Introductions
 
 - Prepare a **30–60 sec intro**
 - Mention: work experience, tech stack, interests
@@ -41,7 +41,7 @@ Most algorithmic interviews last **45–60 minutes** and follow this structure.
 
 ---
 
-## 2. 🔍 Problem Statement Clarification
+## 2.  Problem Statement Clarification
 
 **Before writing any code, do this:**
 
