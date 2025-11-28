@@ -65,7 +65,7 @@ Once the approach is confirmed, start coding.
 
 After coding, the interviewer will test your solution. Different environments exist:
 
-### **Environment 1: Built-in test cases, code executes**
+### **Environment 1: Built-in test cases, code executes** 
 - Similar to LeetCode.
 - Covers all input types and edge cases.
 - Less pressure on writing your own tests.
