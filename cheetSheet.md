@@ -127,6 +127,24 @@ Given **n = queue.length**
 Given **n nodes**
 
 Most tree traversals take:
+Time Complexity:
+O(n)
+
+You visit each node exactly once.
+
+Space Complexity:
+
+O(h) in average case
+
+O(n) in worst case (skewed tree)
+
+Where h = height of the tree.
+
+So:
+
+Balanced tree → space = O(log n)
+
+Skewed tree → space = O(n)
 
 
 
