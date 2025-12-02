@@ -144,7 +144,7 @@ So:
 
 Balanced tree → space = O(log n)
 
-Skewed tree → space = O(n)
+Skewed tree → space = O(n) 
 
 
 
